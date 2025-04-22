@@ -1,4 +1,5 @@
 
+
 # Purple_Clay_Pot
 Purple clay teapot shape classification system based on deep learning.
 
@@ -49,6 +50,10 @@ dataset/
 |激活函数|ReLU|
 |Dropout率|0.5|
 
+如图所示：
+![模型结构图](https://github.com/user-attachments/assets/48817a3e-1504-4c6f-b44c-327839bdd4a6)
+
+
 3. PyTorch实现
 ```python
 class SimpleZishaCNN(nn.Module):
@@ -91,3 +96,41 @@ class SimpleZishaCNN(nn.Module):
 | :-: | :-: |
 |准确率|89.2%|
 |Macro-F1|0.874|
+
+## 效果图
+
+```python
+test/                # 测试集 (15%)
+    ├── {class1}/
+    │   ├── bbb.jpg
+    │   └── ...
+    ├── {class2}/
+    │   ├── ccc.jpg
+    │   └── ...
+    └── ...
+```
+
+
+原图
+![原图1](https://github.com/user-attachments/assets/9803321a-950c-4425-a6d0-03eac499a21c)
+
+标签
+cluster_1
+结果图
+![结果图1](https://github.com/user-attachments/assets/904fc369-f7b7-47ad-befd-2f6cce26b439)
+
+原图
+![原图3](https://github.com/user-attachments/assets/0475eb63-49b1-4379-965a-5ec90868f448)
+
+标签
+cluster_4
+结果图
+![结果图3](https://github.com/user-attachments/assets/6a00bee3-1c6e-45de-a98c-b272f36981c1)
+
+原图
+![原图2](https://github.com/user-attachments/assets/92823a46-1d61-4c01-a495-28f2bdc020f9)
+
+标签
+cluster_3
+结果图
+![结果图2](https://github.com/user-attachments/assets/9a58b6bf-c0ea-49a2-9397-38320d460e62)
