@@ -1,5 +1,6 @@
 
 
+
 # Purple_Clay_Pot
 Purple clay teapot shape classification system based on deep learning.
 
@@ -19,6 +20,14 @@ Purple clay teapot shape classification system based on deep learning.
 ```python
 n_clusters = 5  # 预设类别数
 max_iter = 300  # 最大迭代次数
+```
+类别映射
+```python
+cluster_0 = Literati-shaped
+cluster_1 = Ribbed
+cluster_2 = Flower-shaped
+cluster_3 = Square
+cluster_4 = Light
 ```
 
 2. 数据增强
@@ -110,27 +119,4 @@ test/                # 测试集 (15%)
     └── ...
 ```
 
-
-原图
-![原图1](https://github.com/user-attachments/assets/9803321a-950c-4425-a6d0-03eac499a21c)
-
-标签
-cluster_1
-结果图
-![结果图1](https://github.com/user-attachments/assets/904fc369-f7b7-47ad-befd-2f6cce26b439)
-
-原图
-![原图3](https://github.com/user-attachments/assets/0475eb63-49b1-4379-965a-5ec90868f448)
-
-标签
-cluster_4
-结果图
-![结果图3](https://github.com/user-attachments/assets/6a00bee3-1c6e-45de-a98c-b272f36981c1)
-
-原图
-![原图2](https://github.com/user-attachments/assets/92823a46-1d61-4c01-a495-28f2bdc020f9)
-
-标签
-cluster_3
-结果图
-![结果图2](https://github.com/user-attachments/assets/9a58b6bf-c0ea-49a2-9397-38320d460e62)
+![效果图](https://github.com/user-attachments/assets/69e2bc2f-fc06-425d-b05a-3cc2327826c5)
